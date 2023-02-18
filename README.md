@@ -52,7 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://prg-04.github.io/Web_Development_Bootcamp/)
+- [Live Demo Link](https://www.loom.com/share/31e98b4f21524cadb89c0a15e39d1000)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
