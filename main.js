@@ -14,7 +14,6 @@ toggle.addEventListener('click', () => {
   navlinks.classList.toggle('open');
 });
 
-// eslint-disable-next-line no-undef, no-unused-vars
 const typed = new Typed('.auto-input', {
   strings: [
     'Frameworks like Angular and React',
@@ -25,6 +24,25 @@ const typed = new Typed('.auto-input', {
   backSpeed: 100,
   loop: true,
 });
+
+const countDownDate = new Date('apr 26, 2023 15:37:25').getTime();
+const x = setInterval(() => {
+  const now = new Date().getTime();
+  const dueDate = countDownDate - now;
+  const days = Math.floor(dueDate / (1000 * 60 * 60 * 24));
+  const hours = Math.floor(
+    (dueDate % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+  );
+  const minutes = Math.floor((dueDate % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((dueDate % (1000 * 60)) / 1000);
+  document.getElementById(
+    'countdown',
+  ).innerText = `${days}Days ${hours}Hours ${minutes}Mins ${seconds}Sec `;
+  if (dueDate < 0) {
+    clearInterval(x);
+    document.getElementById('time').innerHTML = 'EXPIRED';
+  }
+}, 1000);
 
 const speakersData = [
   {
@@ -123,6 +141,7 @@ function createSpeaker(arr) {
     const img = createImg(item.image);
     const name = createH4(item.name);
     const title = createH4(item.title);
+    title.className = 'profession';
     const description = createPara(item.description);
 
     imgDiv.appendChild(img);
