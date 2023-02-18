@@ -14,6 +14,7 @@ toggle.addEventListener('click', () => {
   navlinks.classList.toggle('open');
 });
 
+// eslint-disable-next-line no-undef, no-unused-vars
 const typed = new Typed('.auto-input', {
   strings: [
     'Frameworks like Angular and React',
