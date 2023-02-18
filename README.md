@@ -42,9 +42,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Responsive Design]**
-- **[Good accesibility]**
-- **[Higher SEO]**
+- **Responsive Design**
+- **Good accesibility**
+- **Higher SEO**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +106,7 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Evans Karanja**
 
 - GitHub: [@githubhandle](https://github.com/prg-04)
 - Twitter: [@twitterhandle](https://twitter.com/Evanso-044)
@@ -118,8 +118,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Carosel]**
-- [ ] **[Animations]**
+- [ ] **Carosel**
+- [ ] **Animations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,7 +145,7 @@ If you like this project give it a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse Foundation for their amazing templates.
+I would like to thank Cindy Shin for her amazing template.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
